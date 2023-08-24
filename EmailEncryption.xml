@@ -16,7 +16,7 @@
 	<!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
 	<DisplayName DefaultValue="Message Encryption" />
 	<Description DefaultValue="Message Encryption Add-in"/>
-	<IconUrl DefaultValue="https://add-in.entrustedmail.net/Icon64.png"/>
+	<IconUrl DefaultValue="https://add-in.entrustedmail.com/Icon64.png"/>
 	<SupportUrl DefaultValue="https://caredesk.entrustedmail.com" />
 	<!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
 	<AppDomains>
@@ -36,7 +36,7 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://add-in.entrustedmail.net/MessageRead.html"/>
+				<SourceLocation DefaultValue="https://add-in.entrustedmail.com/MessageRead.html"/>
 				<RequestedHeight>250</RequestedHeight>
 			</DesktopSettings>
 		</Form>
@@ -97,14 +97,14 @@
 
 			<Resources>
 				<bt:Images>
-					<bt:Image id="icon16" DefaultValue="https://add-in.entrustedmail.net/Icon16.png"/>
-					<bt:Image id="icon32" DefaultValue="https://add-in.entrustedmail.net/Icon32.png"/>
-					<bt:Image id="icon80" DefaultValue="https://add-in.entrustedmail.net/Icon80.png"/>
+					<bt:Image id="icon16" DefaultValue="https://add-in.entrustedmail.com/Icon16.png"/>
+					<bt:Image id="icon32" DefaultValue="https://add-in.entrustedmail.com/Icon32.png"/>
+					<bt:Image id="icon80" DefaultValue="https://add-in.entrustedmail.com/Icon80.png"/>
 
 				</bt:Images>
 				<bt:Urls>
-					<bt:Url id="functionFile" DefaultValue="https://add-in.entrustedmail.net/FunctionFile.html"/>
-					<bt:Url id="messageComposeTaskPaneUrl"  DefaultValue="https://add-in.entrustedmail.net/MessageRead.html"/>
+					<bt:Url id="functionFile" DefaultValue="https://add-in.entrustedmail.com/FunctionFile.html"/>
+					<bt:Url id="messageComposeTaskPaneUrl"  DefaultValue="https://add-in.entrustedmail.com/MessageRead.html"/>
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
